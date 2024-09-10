@@ -1,0 +1,27 @@
+.sidebar {
+    width: 240px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .logo {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .navLinks {
+    list-style: none;
+    padding: 0;
+    
+    li {
+      margin: 15px 0;
+      font-size: 16px;
+      cursor: pointer;
+      &:hover {
+        color: #1db954;
+      }
+    }
+  }
+  

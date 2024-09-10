@@ -1,0 +1,57 @@
+$purple_color: #7b53f5d9;
+
+.LookForTracks {
+	.content {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.search_icon_block {
+			position: absolute;
+			left: 9px;
+			top: 50%;
+			transform: translateY(-50%);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			button {
+				svg {
+					width: 24px;
+					height: 24px;
+					color: #b3b3b3;
+				}
+			}
+		}
+		.search_input_block {
+			input {
+				width: 400px;
+				padding: 0.85rem 2.7rem;
+				background: #111111;
+				border: 0;
+				outline: 2px solid transparent;
+				border-radius: 4px;
+				font-size: 0.875rem;
+				font-weight: 500;
+				color: #99a3c0;
+				transition: 0.25s;
+				outline: none;
+			}
+		}
+		.search_reset_block {
+			position: absolute;
+			right: 9px;
+			top: 50%;
+			transform: translateY(-50%);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			button {
+				svg {
+					width: 24px;
+					height: 24px;
+					color: #b3b3b3;
+				}
+			}
+		}
+	}
+}

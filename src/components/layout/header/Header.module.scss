@@ -1,0 +1,114 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.leftSection {
+	display: flex;
+	align-items: center;
+}
+
+.rightSection {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.icon {
+	cursor: pointer;
+	font-size: 24px;
+	margin-right: 15px;
+}
+
+.goBell {
+	cursor: pointer;
+	font-size: 24px;
+	color: #9e9b9ba4;
+	padding: 10px;
+	transition: color 0.3s;
+}
+
+.goBell:hover {
+	color: white;
+}
+
+.searchInput {
+	background-color: #333;
+	border: none;
+	padding: 8px 12px;
+	border-radius: 20px;
+	color: #fff;
+	width: 300px;
+	outline: none;
+}
+
+.premiumButton {
+	background-color: #fff;
+	color: black;
+	padding: 8px 12px;
+	border-radius: 20px;
+	border: none;
+	font-weight: 800;
+	margin-right: 15px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.premiumButton:hover {
+	padding: 10px 14px;
+}
+
+.installButton {
+	background-color: transparent;
+	color: #fff;
+	border: none;
+	font-weight: 800;
+	padding: 8px 12px;
+	border-radius: 20px;
+	margin-right: 15px;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	transition: all 0.3s ease;
+}
+
+.installButton:hover {
+	background-color: #444;
+	border-radius: 30px;
+}
+
+.profileIcon {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.hamburger {
+	display: none; // Hidden by default, only shown on mobile devices
+}
+
+@media (max-width: 1000px) {
+	.hamburger {
+		display: block;
+	}
+
+	.rightSection {
+		display: none; // Hide the right section on mobile
+	}
+}
+
+#header {
+	background-color: #000;
+	padding: 10px 20px;
+	color: #fff;
+	font-family: 'Gill', sans-serif;
+	width: 100%;
+	z-index: 1000; 
+}

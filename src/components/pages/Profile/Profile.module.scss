@@ -1,0 +1,21 @@
+.profileHeader {
+    img {
+        width: 100px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    .actors {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .profileUser {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        justify-content: center;
+        padding: 50px 0;
+    }
+}
